@@ -1,6 +1,6 @@
 class lvmsync {
-	package { "lvmsync":
-		provider => "gem",
-		ensure   => "present"
-	}
+  package { 'lvmsync':
+    provider => 'puppet_gem',
+    ensure   => 'present',
+  }
 }
